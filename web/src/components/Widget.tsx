@@ -17,5 +17,5 @@ export function Widget(){
         </span>
     </Popover.Button>
     </Popover>
-  )
+  );
 }
