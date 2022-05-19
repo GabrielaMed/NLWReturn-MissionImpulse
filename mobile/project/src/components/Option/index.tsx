@@ -10,7 +10,10 @@ interface Props extends TouchableOpacityProps{
 
 export function Option({title, image, ...rest}: Props) {
   return (
-    <TouchableOpacity style={styles.container}{...rest}>
+    <TouchableOpacity 
+      style={styles.container}
+      {...rest}
+    >
 
       <Image
       source={image}
